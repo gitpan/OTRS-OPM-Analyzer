@@ -1,5 +1,7 @@
 package OTRS::OPM::Analyzer::Role::Dependencies;
 
+# ABSTRACT: Check that all dependencies were declared
+
 use Moose::Role;
 
 use File::Basename;
@@ -130,11 +132,17 @@ __END__
 
 =head1 NAME
 
-OTRS::OPM::Analyzer::Role::Dependencies
+OTRS::OPM::Analyzer::Role::Dependencies - Check that all dependencies were declared
 
 =head1 VERSION
 
-version 0.01
+version 0.02
+
+=head1 DESCRIPTION
+
+This role checks if all dependencies were declared. To achieve this, all modules that are
+C<use>d are compared to the modules OTRS ships and those that are shipped with the Perl
+core.
 
 =head1 AUTHOR
 

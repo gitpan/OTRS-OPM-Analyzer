@@ -1,6 +1,7 @@
 #!/usr/bin/perl
 
 # PODNAME: validate_opms.pl
+# ABSTRACT: Validate .opms against the XML schema
 
 use strict;
 use warnings;
@@ -50,11 +51,11 @@ __END__
 
 =head1 NAME
 
-validate_opms.pl
+validate_opms.pl - Validate .opms against the XML schema
 
 =head1 VERSION
 
-version 0.01
+version 0.02
 
 =head1 AUTHOR
 

@@ -1,6 +1,7 @@
 #!/usr/bin/perl
 
 # PODNAME: opm_analyzer_test.pl
+# ABSTRACT: a short script to test the analyzer
 
 use strict;
 use warnings;
@@ -39,11 +40,11 @@ __END__
 
 =head1 NAME
 
-opm_analyzer_test.pl
+opm_analyzer_test.pl - a short script to test the analyzer
 
 =head1 VERSION
 
-version 0.01
+version 0.02
 
 =head1 AUTHOR
 

@@ -1,5 +1,7 @@
 package OTRS::OPM::Analyzer::Role::SystemCall;
 
+# ABSTRACT: check if the code does a system call
+
 use Moose::Role;
 use PPI;
 
@@ -73,11 +75,15 @@ __END__
 
 =head1 NAME
 
-OTRS::OPM::Analyzer::Role::SystemCall
+OTRS::OPM::Analyzer::Role::SystemCall - check if the code does a system call
 
 =head1 VERSION
 
-version 0.01
+version 0.02
+
+=head1 DESCRIPTION
+
+It might be bad when OTRS add ons calls a third party program. Hence we check for it.
 
 =head1 AUTHOR
 

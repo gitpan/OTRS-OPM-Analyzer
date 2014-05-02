@@ -1,5 +1,7 @@
 package OTRS::OPM::Analyzer::Role::UnitTests;
 
+# ABSTRACT: checks if the add on has unit tests
+
 use Moose::Role;
 use PPI;
 
@@ -31,11 +33,11 @@ __END__
 
 =head1 NAME
 
-OTRS::OPM::Analyzer::Role::UnitTests
+OTRS::OPM::Analyzer::Role::UnitTests - checks if the add on has unit tests
 
 =head1 VERSION
 
-version 0.01
+version 0.02
 
 =head1 AUTHOR
 

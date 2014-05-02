@@ -1,5 +1,7 @@
 package OTRS::OPM::Analyzer::Role::PerlCritic;
 
+# ABSTRACT: Check if the code matches the OTRS coding guideline
+
 use Moose::Role;
 
 use File::Basename;
@@ -54,11 +56,11 @@ __END__
 
 =head1 NAME
 
-OTRS::OPM::Analyzer::Role::PerlCritic
+OTRS::OPM::Analyzer::Role::PerlCritic - Check if the code matches the OTRS coding guideline
 
 =head1 VERSION
 
-version 0.01
+version 0.02
 
 =head1 AUTHOR
 

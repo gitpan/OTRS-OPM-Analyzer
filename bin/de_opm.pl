@@ -1,6 +1,7 @@
 #!/usr/bin/perl
 
 # PODNAME: de_opm.pl
+# ABSTRACT: create the files listed in the .opm (unpack it)
 
 use strict;
 use warnings;
@@ -67,11 +68,11 @@ __END__
 
 =head1 NAME
 
-de_opm.pl
+de_opm.pl - create the files listed in the .opm (unpack it)
 
 =head1 VERSION
 
-version 0.01
+version 0.02
 
 =head1 AUTHOR
 

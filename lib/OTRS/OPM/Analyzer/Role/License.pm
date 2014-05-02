@@ -1,5 +1,7 @@
 package OTRS::OPM::Analyzer::Role::License;
 
+# ABSTRACT: Check if an appropriate License is used
+
 use Moose::Role;
 use Software::License;
 use Software::LicenseUtils;
@@ -42,11 +44,11 @@ __END__
 
 =head1 NAME
 
-OTRS::OPM::Analyzer::Role::License
+OTRS::OPM::Analyzer::Role::License - Check if an appropriate License is used
 
 =head1 VERSION
 
-version 0.01
+version 0.02
 
 =head1 AUTHOR
 

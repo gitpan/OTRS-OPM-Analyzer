@@ -1,5 +1,7 @@
 package OTRS::OPM::Analyzer::Role::TemplateCheck;
 
+# ABSTRACT: Basic check for templates
+
 use Moose::Role;
 use HTML::Lint;
 
@@ -99,11 +101,11 @@ __END__
 
 =head1 NAME
 
-OTRS::OPM::Analyzer::Role::TemplateCheck
+OTRS::OPM::Analyzer::Role::TemplateCheck - Basic check for templates
 
 =head1 VERSION
 
-version 0.01
+version 0.02
 
 =head1 AUTHOR
 

@@ -1,5 +1,7 @@
 package OTRS::OPM::Analyzer::Role::Documentation;
 
+# ABSTRACT: check if .pod, .pdf or .xml files are included
+
 use Moose::Role;
 
 with 'OTRS::OPM::Analyzer::Role::Base';
@@ -11,7 +13,7 @@ sub check {
     
     FILE:
     for my $file ( $opm->files ) {
-        if ( $file->{filename} =~ m{ /doc/ .*?\.(?:xml|pod) \z } ) {
+        if ( $file->{filename} =~ m{ /doc/ .*?\.(?:xml|pod|pdf) \z } ) {
             $has_documentation = 1;
             last FILE;
         }
@@ -30,11 +32,11 @@ __END__
 
 =head1 NAME
 
-OTRS::OPM::Analyzer::Role::Documentation
+OTRS::OPM::Analyzer::Role::Documentation - check if .pod, .pdf or .xml files are included
 
 =head1 VERSION
 
-version 0.01
+version 0.02
 
 =head1 AUTHOR
 

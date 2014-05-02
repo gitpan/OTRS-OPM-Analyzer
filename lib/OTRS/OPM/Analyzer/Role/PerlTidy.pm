@@ -1,5 +1,7 @@
 package OTRS::OPM::Analyzer::Role::PerlTidy;
 
+# ABSTRACT: Check if the code matches the OTRS coding guidelines (part II)
+
 use Moose::Role;
 
 use File::Temp ();
@@ -69,11 +71,11 @@ no Moose::Role;
 
 =head1 NAME
 
-OTRS::OPM::Analyzer::Role::PerlTidy
+OTRS::OPM::Analyzer::Role::PerlTidy - Check if the code matches the OTRS coding guidelines (part II)
 
 =head1 VERSION
 
-version 0.01
+version 0.02
 
 =head1 AUTHOR
 
