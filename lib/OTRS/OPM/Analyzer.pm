@@ -8,7 +8,7 @@ use Moose::Util::TypeConstraints;
 use OTRS::OPM::Analyzer::Utils::OPMFile;
 use OTRS::OPM::Analyzer::Utils::Config;
 
-our $VERSION = 0.02;
+our $VERSION = 0.03;
 
 # define types
 subtype 'OPMFile' =>
@@ -56,7 +56,10 @@ sub _load_roles {
     
     for my $area ( keys %roles ) {
         for my $role ( @{ $roles{$area} } ) {
-            with __PACKAGE__ . '::Role::' . $role => { -alias => { check => 'check_' . lc $role } };
+            with __PACKAGE__ . '::Role::' . $role => {
+                -alias    => { check => 'check_' . lc $role },
+                -excludes => 'check',
+            };
         }
     }
 }
@@ -137,7 +140,7 @@ OTRS::OPM::Analyzer - Analyze OTRS add-ons (.opm files)
 
 =head1 VERSION
 
-version 0.02
+version 0.03
 
 =head1 SYNOPSIS
 

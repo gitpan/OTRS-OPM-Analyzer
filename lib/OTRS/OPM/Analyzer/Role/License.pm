@@ -48,7 +48,7 @@ OTRS::OPM::Analyzer::Role::License - Check if an appropriate License is used
 
 =head1 VERSION
 
-version 0.02
+version 0.03
 
 =head1 AUTHOR
 

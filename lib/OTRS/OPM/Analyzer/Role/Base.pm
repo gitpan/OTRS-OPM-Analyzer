@@ -20,7 +20,7 @@ OTRS::OPM::Analyzer::Role::Base - interface for all checks
 
 =head1 VERSION
 
-version 0.02
+version 0.03
 
 =head1 INTERFACE
 

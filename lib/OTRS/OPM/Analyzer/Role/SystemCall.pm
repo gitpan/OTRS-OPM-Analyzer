@@ -79,7 +79,7 @@ OTRS::OPM::Analyzer::Role::SystemCall - check if the code does a system call
 
 =head1 VERSION
 
-version 0.02
+version 0.03
 
 =head1 DESCRIPTION
 

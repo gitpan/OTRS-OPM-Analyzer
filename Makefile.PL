@@ -21,11 +21,11 @@ my %WriteMakefileArgs = (
   "DISTNAME" => "OTRS-OPM-Analyzer",
   "EXE_FILES" => [
     "bin/opm_analyzer_test.pl",
-    "bin/validate_opms.pl",
     "bin/de_opm.pl",
-    "bin/opm_analyzer_test.pl",
     "bin/validate_opms.pl",
-    "bin/de_opm.pl"
+    "bin/opm_analyzer_test.pl",
+    "bin/de_opm.pl",
+    "bin/validate_opms.pl"
   ],
   "LICENSE" => "artistic_2",
   "NAME" => "OTRS::OPM::Analyzer",
@@ -59,7 +59,7 @@ my %WriteMakefileArgs = (
     "YAML::Tiny" => 0
   },
   "TEST_REQUIRES" => {},
-  "VERSION" => "0.02",
+  "VERSION" => "0.03",
   "test" => {
     "TESTS" => "t/*.t"
   }

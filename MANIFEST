@@ -28,6 +28,7 @@ lib/OTRS/OPM/Analyzer/Utils/OPMFile.pm
 t/01_config.t
 t/02_opm.t
 t/03_invalid_xml_opm.t
+t/04_analyzer.t
 t/data/QuickMerge-3.3.2.opm
 t/data/QuickMergeInvalid-3.3.2.opm
 t/data/config.yml

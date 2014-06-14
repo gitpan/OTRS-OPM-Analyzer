@@ -60,7 +60,7 @@ OTRS::OPM::Analyzer::Role::PerlCritic - Check if the code matches the OTRS codin
 
 =head1 VERSION
 
-version 0.02
+version 0.03
 
 =head1 AUTHOR
 

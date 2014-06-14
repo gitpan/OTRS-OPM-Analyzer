@@ -37,7 +37,7 @@ OTRS::OPM::Analyzer::Role::BasicXMLCheck - Check if the .xml files can be parsed
 
 =head1 VERSION
 
-version 0.02
+version 0.03
 
 =head1 DESCRIPTION
 

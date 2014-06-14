@@ -75,7 +75,7 @@ OTRS::OPM::Analyzer::Role::PerlTidy - Check if the code matches the OTRS coding 
 
 =head1 VERSION
 
-version 0.02
+version 0.03
 
 =head1 AUTHOR
 
